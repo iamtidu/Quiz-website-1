@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #choices {
+            margin-top: 20px;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            width: 400px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #score {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Quiz Game</h1>
+        <div id="question"></div>
+        <div id="choices"></div>
+        <button onclick="nextQuestion()">Next Question</button>
+        <p id="score">Score: 0</p>
+    </div>
+    <script>
+        let questions = [];
+        let currentQuestion = 0;
+        let score = 0;
+
+        const questionElement = document.getElementById("question");
+        const choicesElement = document.getElementById("choices");
+        const scoreElement = document.getElementById("score");
+
+        // Fetch questions from JSON file
+        fetch("questions.json")
+            .then(response => response.json())
+            .then(data => {
+                questions = data;
+                loadQuestion();
+            })
+            .catch(error => console.error("Error fetching questions:", error));
+
+        function loadQuestion() {
+            const q = questions[currentQuestion];
+            questionElement.textContent = q.question;
+
+            choicesElement.innerHTML = "";
+            q.choices.forEach(choice => {
+                const button = document.createElement("button");
+                button.textContent = choice;
+                button.onclick = function () {
+                    checkAnswer(choice);
+                };
+                choicesElement.appendChild(button);
+            });
+
+            scoreElement.textContent = `Score: ${score}`;
+        }
+
+        function checkAnswer(choice) {
+            const q = questions[currentQuestion];
+            if (q.answer === choice) {
+                score++;
+            }
+            currentQuestion++;
+            if (currentQuestion < questions.length) {
+                loadQuestion();
+            } else {
+                const percentage = (score / questions.length) * 100;
+                if (percentage > 50) {
+                    window.location.href = "certificate.html"; // Redirect to another website
+                } else {
+                    alert(`Quiz completed! Your score is ${score}`);
+                }
+            }
+        }
+
+        function nextQuestion() {
+            if (currentQuestion < questions.length) {
+                loadQuestion();
+            }
+        }
+    </script>
+</body>
+
+</html>

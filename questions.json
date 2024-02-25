@@ -1,0 +1,162 @@
+[
+    {
+      "question": "What is the capital of France?",
+      "choices": ["Paris", "London", "Berlin", "Madrid"],
+      "answer": "Paris"
+    },
+    {
+      "question": "What is 2 + 2?",
+      "choices": ["3", "4", "5", "6"],
+      "answer": "4"
+    },
+    {
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "choices": ["William Shakespeare", "Jane Austen", "Charles Dickens", "Mark Twain"],
+      "answer": "William Shakespeare"
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "choices": ["Venus", "Mars", "Jupiter", "Saturn"],
+      "answer": "Mars"
+    },
+    {
+      "question": "What is the chemical symbol for water?",
+      "choices": ["W", "H2O", "H", "O2"],
+      "answer": "H2O"
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "choices": ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Michelangelo"],
+      "answer": "Leonardo da Vinci"
+    },
+    {
+      "question": "What is the tallest mammal?",
+      "choices": ["Giraffe", "Elephant", "Horse", "Whale"],
+      "answer": "Giraffe"
+    },
+    {
+      "question": "Which country is famous for its tulips?",
+      "choices": ["Netherlands", "Italy", "France", "Germany"],
+      "answer": "Netherlands"
+    },
+    {
+      "question": "What is the currency of Japan?",
+      "choices": ["Dollar", "Pound", "Euro", "Yen"],
+      "answer": "Yen"
+    },
+    {
+      "question": "Who discovered gravity?",
+      "choices": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Nikola Tesla"],
+      "answer": "Isaac Newton"
+    },
+    {
+      "question": "What is the largest ocean on Earth?",
+      "choices": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+      "answer": "Pacific Ocean"
+    },
+    {
+      "question": "What is the capital of Canada?",
+      "choices": ["Toronto", "Montreal", "Vancouver", "Ottawa"],
+      "answer": "Ottawa"
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "choices": ["Au", "Ag", "Fe", "Cu"],
+      "answer": "Au"
+    },
+    {
+      "question": "Who wrote 'To Kill a Mockingbird'?",
+      "choices": ["Harper Lee", "J.K. Rowling", "George Orwell", "Mark Twain"],
+      "answer": "Harper Lee"
+    },
+    {
+      "question": "Which gas is most abundant in Earth's atmosphere?",
+      "choices": ["Nitrogen", "Oxygen", "Carbon Dioxide", "Helium"],
+      "answer": "Nitrogen"
+    },
+    {
+      "question": "Who was the first person to step on the Moon?",
+      "choices": ["Neil Armstrong", "Buzz Aldrin", "Yuri Gagarin", "Michael Collins"],
+      "answer": "Neil Armstrong"
+    },
+    {
+      "question": "What is the largest organ in the human body?",
+      "choices": ["Brain", "Heart", "Liver", "Skin"],
+      "answer": "Skin"
+    },
+    {
+      "question": "What is the capital of Australia?",
+      "choices": ["Melbourne", "Sydney", "Canberra", "Brisbane"],
+      "answer": "Canberra"
+    },
+    {
+      "question": "Who wrote '1984'?",
+      "choices": ["George Orwell", "F. Scott Fitzgerald", "Ernest Hemingway", "Aldous Huxley"],
+      "answer": "George Orwell"
+    },
+    {
+      "question": "What is the chemical symbol for silver?",
+      "choices": ["Ag", "Au", "Fe", "Cu"],
+      "answer": "Ag"
+    },
+    {
+      "question": "Which country is famous for the Great Wall?",
+      "choices": ["China", "India", "Russia", "Egypt"],
+      "answer": "China"
+    },
+    {
+      "question": "What is the main ingredient in guacamole?",
+      "choices": ["Tomato", "Avocado", "Onion", "Cilantro"],
+      "answer": "Avocado"
+    },
+    {
+      "question": "Who painted 'The Starry Night'?",
+      "choices": ["Vincent van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Claude Monet"],
+      "answer": "Vincent van Gogh"
+    },
+    {
+      "question": "What is the chemical symbol for carbon?",
+      "choices": ["C", "Ca", "Co", "Cr"],
+      "answer": "C"
+    },
+    {
+      "question": "Who wrote 'The Catcher in the Rye'?",
+      "choices": ["J.D. Salinger", "Ernest Hemingway", "F. Scott Fitzgerald", "Mark Twain"],
+      "answer": "J.D. Salinger"
+    },
+    {
+      "question": "What is the largest desert in the world?",
+      "choices": ["Sahara Desert", "Arabian Desert", "Gobi Desert", "Antarctica"],
+      "answer": "Antarctica"
+    },
+    {
+      "question": "What is the capital of Brazil?",
+      "choices": ["Rio de Janeiro", "São Paulo", "Brasília", "Salvador"],
+      "answer": "Brasília"
+    },
+    {
+      "question": "Who invented the telephone?",
+      "choices": ["Alexander Graham Bell", "Thomas Edison", "Nikola Tesla", "Guglielmo Marconi"],
+      "answer": "Alexander Graham Bell"
+    },
+    {
+      "question": "What is the chemical symbol for iron?",
+      "choices": ["Fe", "Au", "Ag", "Cu"],
+      "answer": "Fe"
+    },
+    {
+      "question": "Which country is known as the Land of the Rising Sun?",
+      "choices": ["China", "Japan", "Korea", "Vietnam"],
+      "answer": "Japan"
+    },
+    {
+      "question": "Who wrote 'Pride and Prejudice'?",
+      "choices": ["Jane Austen", "Emily Brontë", "Charlotte Brontë", "Louisa May Alcott"],
+      "answer": "Jane Austen"
+    },
+    {
+      "question": "What is the chemical symbol for sodium?",
+      "choices": ["Na", "Ne", "Ni", "Nb"],
+      "answer": "Na"
+    }]
+    
